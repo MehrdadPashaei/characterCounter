@@ -7,7 +7,7 @@ function Input ({ value, onChange }){
 
     return (
         <div>
-            <input type="text" id="inputSectin" placeholder="type into me!" className="input-to-copy" value = {value} onChange={onChange}/>
+            <input type="text"  placeholder="type into me!" className="input" value = {value} onChange={onChange}/>
         </div>
     )
 }

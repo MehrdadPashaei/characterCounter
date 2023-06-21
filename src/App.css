@@ -17,7 +17,7 @@ body{
 }
 
 
-.input-to-copy{
+.input{
     width: 300px;
     padding: 10px;
     font-size: 2rem;
@@ -27,6 +27,6 @@ body{
 }
 
 
-.p-to-copy-to{
+.paragraph{
     font-size: 2rem;
 }
