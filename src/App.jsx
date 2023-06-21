@@ -10,11 +10,10 @@ function App() {
         setText(e.target.value);
     };
 
-   const charCount = text.length;
   return (
     <div>
         <Input value={text} onChange={handleInputChange}/>
-        <WordCounter  count = {`Character Count: ${charCount}`} />
+        <WordCounter  count ={text} />
     </div>
   )
 }
